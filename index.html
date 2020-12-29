@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function Inline() {
+            var btn = document.getElementById("btn");
+            btn.classList.toggle("btn_active");
+            var item = document.body.querySelectorAll('.item')
+            var description = document.body.querySelectorAll('.description')
+            for (let i = 0; i < item.length; i++){
+                item[i].classList.toggle('item_block');
+                description[i].classList.toggle('hidden');
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <button id="btn" class="btn" onclick="Inline()">
+        <div id="lines"></div>
+    </button>
+    <div class="list">
+        <div class="item" id="item">
+            <img src="content/1.jpg" alt="">
+            <div class="name">Борис</div>
+            <div class="age">Возраст: 3 года</div>
+            <div class="type">Порода: нет</div>
+            <div class="disease">Болезни: Глухота</div>
+            <div class="status">Статус: Ищет хозяина</div>
+            <div class="description hidden">Самый лучший в мире</div>
+        </div>
+        <div class="item">
+            <img src="content/2.jpg" alt="">
+            <div class="name">Мурзик</div>
+            <div class="age">Возраст: 2 года</div>
+            <div class="type">Порода: нет</div>
+            <div class="disease">Болезни: нет</div>
+            <div class="status">Статус: Ищет хозяина</div>
+            <div class="description hidden">Самый красивый общительный</div>
+        </div>
+        <div class="item">
+            <img src="content/3.jpg" alt="">
+            <div class="name">Сеня</div>
+            <div class="age">Возраст: 3 месяца</div>
+            <div class="type">Порода: нет</div>
+            <div class="disease">Болезни: нет</div>
+            <div class="status">Статус: Ищет хозяина</div>
+            <div class="description hidden">Такооой умный</div>
+        </div>
+        <div class="item">
+            <img src="content/4.jpg" alt="">
+            <div class="name">Варя</div>
+            <div class="age">Возраст: 1 год</div>
+            <div class="type">Порода: нет</div>
+            <div class="disease">Болезни: нет</div>
+            <div class="status">Статус: Ищет хозяина</div>
+            <div class="description hidden">Этот кот все на свете знает</div>
+        </div>
+        <div class="item">
+            <img src="content/5.jpg" alt="">
+            <div class="name">Лео</div>
+            <div class="age">Возраст: 7 месяцев</div>
+            <div class="type">Порода: нет</div>
+            <div class="disease">Болезни: нет</div>
+            <div class="status">Статус: Ищет хозяина</div>
+            <div class="description hidden">Кот поможет справиться с депрессией</div>
+        </div>
+        <div class="item">
+            <img src="content/6.jpg" alt="">
+            <div class="name">Ник</div>
+            <div class="age">Возраст: 3 года</div>
+            <div class="type">Порода: нет</div>
+            <div class="disease">Болезни: Глухота</div>
+            <div class="status">Статус: Ищет хозяина</div>
+            <div class="description hidden">Просто котик хороший милый без комментариев</div>
+        </div>
+        <div class="item">
+            <img src="content/7.jpg" alt="">
+            <div class="name">Демик</div>
+            <div class="age">Возраст: 2 года</div>
+            <div class="type">Порода: нет</div>
+            <div class="disease">Болезни: нет</div>
+            <div class="status">Статус: Ищет хозяина</div>
+            <div class="description hidden">пупсик</div>
+        </div>
+        <div class="item">
+            <img src="content/8.jpg" alt="">
+            <div class="name">Иван</div>
+            <div class="age">Возраст: 8 месяцев</div>
+            <div class="type">Порода: нет</div>
+            <div class="disease">Болезни: Грусть</div>
+            <div class="status">Статус: Ищет хозяина</div>
+            <div class="description hidden">и еще один пупсик для количества</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

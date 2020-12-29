@@ -1,0 +1,57 @@
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#lines {
+    border-bottom: 17px double black;
+    border-top: 6px solid black;
+    height: 5px;
+    width: 30px;
+
+}
+
+.btn {
+    transform: rotateZ(0deg);
+    transition-duration: 500ms;
+}
+
+.btn_active {
+    transform: rotateZ(90deg);
+    transition-duration: 500ms;
+}
+
+.list {
+
+}
+
+.item {
+    width: 200px;
+    padding: 20px;
+    margin: 20px 20px 20px 0;
+    display: inline-block;
+}
+.item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+.item img {
+    width: 200px;
+    height: 200px;
+}
+
+.item_block {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    margin: 20px auto;
+}
+
+.item_block img {
+    width: 400px;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}

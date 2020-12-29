@@ -3,25 +3,47 @@ button {
     outline: none;
     background: none;
 }
-
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0.5em;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
 #lines {
     border-bottom: 17px double black;
     border-top: 6px solid black;
     height: 5px;
     width: 30px;
-
 }
 
 .btn {
     transform: rotateZ(0deg);
     transition-duration: 500ms;
+    margin: 100px 20px 0;
 }
 
 .btn_active {
     transform: rotateZ(90deg);
     transition-duration: 500ms;
 }
-
+.header{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    background: white;
+    margin: 0;
+    z-index: 3;
+}
+.header img{
+    height: 70px;
+}
+.name {
+    font-size: 25px;
+}
 .list {
 
 }
@@ -54,4 +76,26 @@ button {
 
 .hidden {
     display: none;
+}
+.footer {
+    text-align: justify;
+}
+.footer:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+.mails {
+    display: inline-block;
+}
+.mail {
+    display: block;
+    background: url("content/mail.png") no-repeat;
+    padding: 0 0 0 20px;
+    background-size: 15px 15px;
+    margin: 10px 0;
+}
+.company {
+    display: inline-block;
+    text-align: right;
 }

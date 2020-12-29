@@ -13,7 +13,7 @@
             btn.classList.toggle("btn_active");
             var item = document.body.querySelectorAll('.item')
             var description = document.body.querySelectorAll('.description')
-            for (let i = 0; i < item.length; i++){
+            for (let i = 0; i < item.length; i++) {
                 item[i].classList.toggle('item_block');
                 description[i].classList.toggle('hidden');
             }
@@ -21,6 +21,9 @@
     </script>
 </head>
 <body>
+<div class="header">
+    <img src="content/logo.jpg">
+</div>
 <div class="container">
     <button id="btn" class="btn" onclick="Inline()">
         <div id="lines"></div>
@@ -97,6 +100,16 @@
             <div class="disease">Болезни: Грусть</div>
             <div class="status">Статус: Ищет хозяина</div>
             <div class="description hidden">и еще один пупсик для количества</div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Напишите нам:</p>
+        <div class="mails">
+            <a href="" class="mail">hellohowareyou@mail.ru</a>
+            <a href="" class="mail">hehelol@gmail.com</a>
+        </div>
+        <div class="company">
+            2020 OOO "<a href="">Бабушкины котятки</a>"
         </div>
     </div>
 </div>

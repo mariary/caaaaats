@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cats3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,7 +54,8 @@
       <workItem from="1609606392157" duration="461000" />
       <workItem from="1609607674367" duration="621000" />
       <workItem from="1609608365498" duration="8486000" />
-      <workItem from="1609659881119" duration="7063000" />
+      <workItem from="1609659881119" duration="7919000" />
+      <workItem from="1611647384731" duration="11000" />
     </task>
     <servers />
   </component>
